@@ -1,0 +1,11 @@
+data/
+temp/
+logs/
+
+.venv/
+.idea/
+
+*config*
+*.cfg
+
+!*.default

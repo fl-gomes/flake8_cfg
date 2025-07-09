@@ -5,7 +5,7 @@ from typing import Generator, Tuple
 
 # Define your error code and message
 ERROR_CODE = "NE001"
-ERROR_MSG = "NE001 Non-English  characters detected: {}"
+ERROR_MSG = "NE001 Non-English characters detected: {}"
 
 # Regex pattern to detect Cyrillic characters (Unicode range U+0400 to U+04FF)
 CYRILLIC_PATTERN = re.compile(r"[\u0400-\u04FF]+")
